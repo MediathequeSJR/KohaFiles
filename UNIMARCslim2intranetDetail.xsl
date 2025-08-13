@@ -8,7 +8,7 @@
   xmlns:str="http://exslt.org/strings"
   exclude-result-prefixes="marc str">
 
-<xsl:import href="UNIMARCslimUtils.xsl"/>
+<xsl:import href="https://raw.githubusercontent.com/MediathequeSJR/KohaFiles/refs/heads/main/UNIMARCslimUtils.xsl"/>
 <xsl:output method = "html" indent="yes" omit-xml-declaration = "yes" encoding="UTF-8"/>
 <xsl:template match="/">
   <xsl:apply-templates/>
